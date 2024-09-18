@@ -7,6 +7,7 @@ const port = 3000;
 app.use(express.json()); // Permitir solicitudes en formato JSON
 
 // Crear una instancia del cliente GoogleGenerativeAI
+// git remote add origin https://github.com/martinmilitello/ApiRest_Chatbot_Node.git
 const genAI = new GoogleGenerativeAI(process.env.API);
 
 // Endpoint para interactuar con el chatbot
